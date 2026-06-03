@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veltrix Prompts — AI Prompt Packs for Professionals</title>
+<meta name="description" content="Ready-to-use AI prompt packs for HR, Legal, Finance and Real Estate professionals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#" class="nav-logo">
+    <svg width="28" height="28" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00b4ff"/><stop offset="100%" stop-color="#8b2fff"/></linearGradient>
+        <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00c8ff"/><stop offset="100%" stop-color="#1a7aff"/></linearGradient>
+        <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c060ff"/><stop offset="100%" stop-color="#6020ef"/></linearGradient>
+      </defs>
+      <polygon points="25,5 43,15 43,35 25,45 7,35 7,15" fill="none" stroke="url(#g1)" stroke-width="1.5"/>
+      <path d="M17,19 L22,19 L25,29 L22,29 Z" fill="url(#g2)"/>
+      <path d="M33,19 L28,19 L25,29 L28,29 Z" fill="url(#g3)"/>
+      <circle cx="25" cy="29" r="2" fill="url(#g1)"/>
+    </svg>
+    <div class="nav-brand">
+      <span class="vx">VELTRIX</span>
+      <span class="pr">PROMPTS</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#how">How it works</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <a href="#products" class="nav-cta" id="el-nav-cta">Browse packs →</a>
+  <button class="nav-burger" id="nav-burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#products" onclick="closeMobileMenu()">Products</a>
+  <a href="#how" onclick="closeMobileMenu()">How it works</a>
+  <a href="#faq" onclick="closeMobileMenu()">FAQ</a>
+  <a href="#products" class="nav-cta" onclick="closeMobileMenu()" id="el-mob-cta">Browse packs →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <svg class="hero-hex" viewBox="0 0 340 380" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00b4ff"/><stop offset="100%" stop-color="#8b2fff"/></linearGradient></defs>
+    <polygon points="170,30 290,98 290,234 170,302 50,234 50,98" fill="none" stroke="url(#hg)" stroke-width="1.5"/>
+    <polygon points="170,70 254,118 254,214 170,262 86,214 86,118" fill="none" stroke="#5540c0" stroke-width="1" opacity=".35"/>
+    <circle cx="170" cy="30" r="5" fill="#00c8ff"/><circle cx="290" cy="98" r="5" fill="#00c8ff"/>
+    <circle cx="290" cy="234" r="5" fill="#9040ff"/><circle cx="170" cy="302" r="5" fill="#9040ff"/>
+    <circle cx="50" cy="234" r="5" fill="#9040ff"/><circle cx="50" cy="98" r="5" fill="#00c8ff"/>
+    <path d="M145,148 L158,148 L170,188 L158,188 Z" fill="url(#hg)"/>
+    <path d="M195,148 L182,148 L170,188 L182,188 Z" fill="url(#hg)"/>
+  </svg>
+  <div class="hero-inner">
+    <div class="eyebrow"><div class="eyebrow-dot"></div><span id="el-eyebrow">AI Prompt Packs for Professionals</span></div>
+    <h1 class="hero-h1" id="el-h1">Stop writing professional documents <em>from scratch.</em></h1>
+    <p class="hero-sub" id="el-sub">Ready-to-use AI prompt packs for HR, Legal, Finance and Real Estate professionals. Copy, paste into ChatGPT or Claude, fill in the blanks — done in seconds.</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-grad"><span id="el-hero-cta">Explore the packs →</span></a>
+      <a href="#how" class="btn-ghost">See how it works</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num" id="el-stat1-num">200+</div><div class="stat-lbl" id="el-stat1-lbl">Prompts across all packs</div></div>
+      <div><div class="stat-num" id="el-stat2-num">4</div><div class="stat-lbl" id="el-stat2-lbl">Professional packs</div></div>
+      <div><div class="stat-num" id="el-stat3-num">$79</div><div class="stat-lbl" id="el-stat3-lbl">One-time per pack</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRODUCTS -->
+<section class="sec products-bg" id="products">
+  <div class="sec-lbl center" id="el-prod-label">The full collection</div>
+  <h2 class="sec-title center" id="el-prod-title">One pack for every profession.</h2>
+  <p class="products-intro" id="el-prod-intro">Each pack is a standalone purchase — buy the one you need now, add more as your work demands.</p>
+  <div class="cards" id="cards-grid">
+    <!-- rendered by JS from /api/content -->
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- HOW IT WORKS -->
+<section class="sec" id="how">
+  <div class="sec-lbl" id="el-how-label">Simple by design</div>
+  <h2 class="sec-title" id="el-how-title">Three steps. That's it.</h2>
+  <div class="how-cards">
+    <div class="how-card"><div class="how-num">01</div><div class="how-ttl" id="el-how1-title">Buy once. Own forever.</div><div class="how-bod" id="el-how1-body">Pay $79 for any pack. Instantly receive your Notion document and PDF — no subscriptions, no recurring charges. Yours for life.</div></div>
+    <div class="how-card"><div class="how-num">02</div><div class="how-ttl" id="el-how2-title">Find the prompt you need.</div><div class="how-bod" id="el-how2-body">Open the Notion doc, browse the categories, pick the prompt for your task. Organised so you find what you need in under 30 seconds.</div></div>
+    <div class="how-card"><div class="how-num">03</div><div class="how-ttl" id="el-how3-title">Copy, paste, done.</div><div class="how-bod" id="el-how3-body">Paste into ChatGPT or Claude (both free), fill in the [brackets] with your details, press send. Professional output in under 60 seconds.</div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TESTIMONIALS -->
+<section class="sec" id="testimonials">
+  <div class="sec-lbl" id="el-testi-label">Real results</div>
+  <h2 class="sec-title" id="el-testi-title">What professionals say</h2>
+  <div class="testi-outer" id="testi-outer">
+    <div class="testi-track" id="testi-track"></div>
+  </div>
+  <div class="testi-nav" id="testi-nav"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="sec-lbl center" id="el-faq-label">Questions</div>
+  <h2 class="sec-title center" id="el-faq-title">FAQ</h2>
+  <div class="faq-wrap" id="faq-wrap">
+    <!-- rendered by JS -->
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-grid">
+    <div>
+      <div class="foot-logo"><span class="vx">VELTRIX</span><span class="pr">PROMPTS</span></div>
+      <p class="foot-desc" id="el-footer-desc">AI prompt packs for professionals. Built for HR, Legal, Finance and Real Estate teams who want to work smarter, not harder.</p>
+    </div>
+    <div>
+      <div class="foot-col-title">Products</div>
+      <ul class="foot-links">
+        <li><a href="#products">Veltrix HR</a></li>
+        <li><a href="#products">Veltrix Legal</a></li>
+        <li><a href="#products">Veltrix Finance</a></li>
+        <li><a href="#products">Veltrix RE</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-col-title">Info</div>
+      <ul class="foot-links">
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a id="el-footer-email" href="mailto:hello.veltrix@gmail.com">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bar">
+    <span class="foot-copy" id="el-footer-copy">© 2025 Veltrix. All rights reserved.</span>
+    <span class="foot-domain" id="el-footer-domain">veltrix-prompts.com</span>
+  </div>
+</footer>
+
+<!-- ADMIN TRIGGER -->
+<button id="adm-btn" title="Admin settings" aria-label="Admin settings">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+    <circle cx="12" cy="12" r="3"/>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+  </svg>
+</button>
+
+<!-- ADMIN PANEL -->
+<div id="adm" role="dialog" aria-label="Admin panel">
+  <div class="adm-head">
+    <div class="adm-head-l">
+      <div class="adm-dot" id="adm-dot"></div>
+      <div><div class="adm-title">Veltrix Admin</div><div class="adm-sub" id="adm-sub">Authentication required</div></div>
+    </div>
+    <button class="adm-x" onclick="closeAdm()" aria-label="Close">×</button>
+  </div>
+  <div class="adm-body">
+
+    <!-- LOGIN -->
+    <div id="adm-login" class="adm-login">
+      <div class="adm-lock">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00b4ff" stroke-width="1.8">
+          <rect x="3" y="11" width="18" height="11" rx="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
+      <h3>Sign in</h3>
+      <p>Admin access only</p>
+      <input class="af" type="text" id="ap-user" placeholder="Username" autocomplete="username"
+             onkeydown="if(event.key==='Enter')document.getElementById('ap-pass').focus()">
+      <input class="af" type="password" id="ap-pass" placeholder="Password" autocomplete="current-password"
+             onkeydown="if(event.key==='Enter')doLogin()">
+      <div class="adm-err" id="adm-err">Incorrect credentials.</div>
+      <button class="adm-login-btn" onclick="doLogin()">Sign in →</button>
+    </div>
+
+    <!-- EDITOR -->
+    <div id="adm-editor" class="adm-editor">
+      <div class="adm-user">
+        <div class="adm-user-l">
+          <div class="adm-av">V</div>
+          <div><div class="adm-uname" id="adm-uname">Admin</div><div class="adm-urole">Veltrix Admin</div></div>
+        </div>
+        <button class="adm-out" onclick="doLogout()">Sign out</button>
+      </div>
+
+      <div class="adm-tabs" id="adm-tabs">
+        <button class="atab on" onclick="swTab('hero',this)">Hero</button>
+        <button class="atab" onclick="swTab('products',this)">Products</button>
+        <button class="atab" onclick="swTab('reviews',this)">Reviews</button>
+        <button class="atab" onclick="swTab('how',this)">How</button>
+        <button class="atab" onclick="swTab('faq',this)">FAQ</button>
+        <button class="atab" onclick="swTab('site',this)">Site</button>
+      </div>
+
+      <!-- HERO TAB -->
+      <div class="apanel show" id="ap-hero">
+        <div class="acard">
+          <div class="acard-t">Hero section</div>
+          <div class="ag"><label class="al">Eyebrow tag</label><input class="af" id="a-eyebrow"></div>
+          <div class="ag"><label class="al">Headline — [em]text[/em] for gradient</label><textarea class="af-area" id="a-h1"></textarea></div>
+          <div class="ag"><label class="al">Subheadline</label><textarea class="af-area" id="a-sub"></textarea></div>
+          <div class="ag"><label class="al">Hero CTA button</label><input class="af" id="a-hcta"></div>
+          <div class="ag"><label class="al">Nav CTA button</label><input class="af" id="a-nav-cta"></div>
+        </div>
+        <div class="acard">
+          <div class="acard-t">Stats</div>
+          <div class="a2"><div class="ag"><label class="al">Stat 1 number</label><input class="af" id="a-s1n"></div><div class="ag"><label class="al">Label</label><input class="af" id="a-s1l"></div></div>
+          <div class="a2"><div class="ag"><label class="al">Stat 2 number</label><input class="af" id="a-s2n"></div><div class="ag"><label class="al">Label</label><input class="af" id="a-s2l"></div></div>
+          <div class="a2"><div class="ag"><label class="al">Stat 3 number</label><input class="af" id="a-s3n"></div><div class="ag"><label class="al">Label</label><input class="af" id="a-s3l"></div></div>
+        </div>
+        <div class="acard">
+          <div class="acard-t">Products section header</div>
+          <div class="ag"><label class="al">Eyebrow</label><input class="af" id="a-prod-label"></div>
+          <div class="ag"><label class="al">Title</label><input class="af" id="a-prod-title"></div>
+          <div class="ag"><label class="al">Intro</label><textarea class="af-area" id="a-prod-intro"></textarea></div>
+        </div>
+        <div class="save-bar"><button class="asave" onclick="saveHero()">Save hero</button><span class="asaved" id="sv-hero">✓ Saved</span></div>
+      </div>
+
+      <!-- PRODUCTS TAB -->
+      <div class="apanel" id="ap-products">
+        <p class="ahint">Select a product to edit its content, price, link and visibility.</p>
+        <div class="psel-row">
+          <button class="psel on" onclick="selProd('hr',this)">👥 HR</button>
+          <button class="psel" onclick="selProd('legal',this)">⚖️ Legal</button>
+          <button class="psel" onclick="selProd('finance',this)">📊 Finance</button>
+          <button class="psel" onclick="selProd('re',this)">🏡 RE</button>
+        </div>
+        <div id="prod-editors">
+          <!-- dynamic per product -->
+        </div>
+      </div>
+
+      <!-- REVIEWS TAB -->
+      <div class="apanel" id="ap-reviews">
+        <p class="ahint">Add, edit or delete testimonials. 4+ testimonials auto-activates the carousel.</p>
+        <div id="tr-list"></div>
+        <div class="acard">
+          <div class="acard-t">Add new testimonial</div>
+          <div class="ag"><label class="al">Quote</label><textarea class="af-area" id="tr-new-q" placeholder='"This saved me hours every week..."'></textarea></div>
+          <div class="a2">
+            <div class="ag"><label class="al">Name</label><input class="af" id="tr-new-n" placeholder="Jane D."></div>
+            <div class="ag"><label class="al">Role</label><input class="af" id="tr-new-r" placeholder="HR Manager, Company"></div>
+          </div>
+          <div class="ag"><label class="al">Pack tag</label><input class="af" id="tr-new-p" placeholder="Veltrix HR"></div>
+          <div class="save-bar"><button class="asave" onclick="trAdd()">Add testimonial</button><span class="asaved" id="sv-tr-add">✓ Added</span></div>
+        </div>
+      </div>
+
+      <!-- HOW TAB -->
+      <div class="apanel" id="ap-how">
+        <div class="acard">
+          <div class="acard-t">Section header</div>
+          <div class="ag"><label class="al">Eyebrow</label><input class="af" id="a-how-label"></div>
+          <div class="ag"><label class="al">Title</label><input class="af" id="a-how-title"></div>
+        </div>
+        <div class="acard"><div class="acard-t">Step 1</div>
+          <div class="ag"><label class="al">Title</label><input class="af" id="a-how1-t"></div>
+          <div class="ag"><label class="al">Body</label><textarea class="af-area" id="a-how1-b"></textarea></div>
+        </div>
+        <div class="acard"><div class="acard-t">Step 2</div>
+          <div class="ag"><label class="al">Title</label><input class="af" id="a-how2-t"></div>
+          <div class="ag"><label class="al">Body</label><textarea class="af-area" id="a-how2-b"></textarea></div>
+        </div>
+        <div class="acard"><div class="acard-t">Step 3</div>
+          <div class="ag"><label class="al">Title</label><input class="af" id="a-how3-t"></div>
+          <div class="ag"><label class="al">Body</label><textarea class="af-area" id="a-how3-b"></textarea></div>
+        </div>
+        <div class="save-bar"><button class="asave" onclick="saveHow()">Save</button><span class="asaved" id="sv-how">✓ Saved</span></div>
+      </div>
+
+      <!-- FAQ TAB -->
+      <div class="apanel" id="ap-faq">
+        <div class="acard">
+          <div class="acard-t">Section header</div>
+          <div class="a2">
+            <div class="ag"><label class="al">Eyebrow</label><input class="af" id="a-faq-label"></div>
+            <div class="ag"><label class="al">Title</label><input class="af" id="a-faq-title"></div>
+          </div>
+        </div>
+        <div id="faq-admin-items"></div>
+        <div class="save-bar"><button class="asave" onclick="saveFaq()">Save FAQ</button><span class="asaved" id="sv-faq">✓ Saved</span></div>
+      </div>
+
+      <!-- SITE TAB -->
+      <div class="apanel" id="ap-site">
+        <div class="acard">
+          <div class="acard-t">Testimonials section header</div>
+          <div class="a2">
+            <div class="ag"><label class="al">Eyebrow</label><input class="af" id="a-testi-label"></div>
+            <div class="ag"><label class="al">Title</label><input class="af" id="a-testi-title"></div>
+          </div>
+        </div>
+        <div class="acard">
+          <div class="acard-t">Footer</div>
+          <div class="ag"><label class="al">Description</label><textarea class="af-area" id="a-footer-desc"></textarea></div>
+          <div class="ag"><label class="al">Contact email</label><input class="af" id="a-email"></div>
+          <div class="ag"><label class="al">Copyright line</label><input class="af" id="a-footer-copy"></div>
+          <div class="ag"><label class="al">Domain shown</label><input class="af" id="a-footer-domain"></div>
+        </div>
+        <div class="save-bar"><button class="asave" onclick="saveSite()">Save site text</button><span class="asaved" id="sv-site">✓ Saved</span></div>
+        <div class="acard" style="margin-top:16px">
+          <div class="acard-t">Admin credentials</div>
+          <div class="ag"><label class="al">New username</label><input class="af" id="a-newuser" placeholder="Leave blank to keep current"></div>
+          <div class="ag"><label class="al">New password</label><input class="af" type="password" id="a-newpass" placeholder="Leave blank to keep current"></div>
+          <div class="save-bar"><button class="asave" onclick="saveCreds()">Update credentials</button><span class="asaved" id="sv-creds">✓ Updated</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

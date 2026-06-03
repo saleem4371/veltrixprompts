@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "eyebrow": "AI Prompt Packs for Professionals",
+    "h1": "Stop writing professional documents [em]from scratch.[/em]",
+    "sub": "Ready-to-use AI prompt packs for HR, Legal, Finance and Real Estate professionals. Copy, paste into ChatGPT or Claude, fill in the blanks — done in seconds.",
+    "cta": "Explore the packs →",
+    "navCta": "Browse packs →",
+    "stat1Num": "200+", "stat1Lbl": "Prompts across all packs",
+    "stat2Num": "4",    "stat2Lbl": "Professional packs",
+    "stat3Num": "$79",  "stat3Lbl": "One-time per pack",
+    "prodLabel": "The full collection",
+    "prodTitle": "One pack for every profession.",
+    "prodIntro": "Each pack is a standalone purchase — buy the one you need now, add more as your work demands."
+  },
+  "products": {
+    "hr":      { "name":"Veltrix HR",      "tagline":"For HR Professionals",                   "desc":"50 AI prompts covering every stage of the employee lifecycle — from job descriptions to offboarding.",                "count":"50 prompts · Notion doc + PDF · Instant delivery", "feats":["Hiring & Job Descriptions — 8 prompts","Interviewing & Assessment — 8 prompts","Onboarding & Culture — 8 prompts","Performance Management & PIPs — 8 prompts","HR Communications & Policy — 8 prompts","Offboarding — 6 prompts"], "price":"79", "url":"#", "live":true  },
+    "legal":   { "name":"Veltrix Legal",   "tagline":"For Lawyers & Legal Professionals",       "desc":"50 AI prompts for legal drafting, client communications, research memos, and document review.",                      "count":"50 prompts · Notion doc + PDF",                    "feats":["Contract drafting & review","Client communications","Legal research summaries","Court documents & filings","Due diligence checklists","Legal memos & briefs"],                                                                                    "price":"79", "url":"#", "live":false },
+    "finance": { "name":"Veltrix Finance", "tagline":"For Accountants & Finance Professionals", "desc":"50 AI prompts for financial analysis, client reporting, audit preparation, and professional communications.",        "count":"50 prompts · Notion doc + PDF",                    "feats":["Financial report narratives","Client communication emails","Audit preparation documents","Budget commentary & analysis","Tax advisory communications","Board presentation summaries"],                                                         "price":"79", "url":"#", "live":false },
+    "re":      { "name":"Veltrix RE",      "tagline":"For Real Estate Agents",                  "desc":"50 AI prompts for property listings, buyer and seller communications, negotiation scripts, and marketing copy.",   "count":"50 prompts · Notion doc + PDF",                    "feats":["Property listing descriptions","Buyer & seller emails","Offer & negotiation scripts","Open house materials","Social media content","Client follow-up sequences"],                                                                              "price":"79", "url":"#", "live":false }
+  },
+  "how": {
+    "label":"Simple by design","title":"Three steps. That's it.",
+    "step1Title":"Buy once. Own forever.","step1Body":"Pay $79 for any pack. Instantly receive your Notion document and PDF — no subscriptions, no recurring charges. Yours for life.",
+    "step2Title":"Find the prompt you need.","step2Body":"Open the Notion doc, browse the categories, pick the prompt for your task. Organised so you find what you need in under 30 seconds.",
+    "step3Title":"Copy, paste, done.","step3Body":"Paste into ChatGPT or Claude (both free), fill in the [brackets] with your details, press send. Professional output in under 60 seconds."
+  },
+  "testimonials": [
+    { "q": "\"I rewrote 4 job descriptions in one afternoon. Previously that would have taken me 2 days of staring at a blank page.\"", "n": "Sarah M.", "r": "HR Manager, Tech Company",           "p": "Veltrix HR" },
+    { "q": "\"The PIP template alone was worth $79. I'd been dreading that conversation for 3 weeks — the prompt made me feel completely prepared.\"",  "n": "James K.", "r": "People Partner, Financial Services", "p": "Veltrix HR" },
+    { "q": "\"I used to spend 45 minutes writing onboarding emails. Now it's 5 minutes. I've already saved more time than I can count.\"",              "n": "Priya R.", "r": "Talent Acquisition Lead",            "p": "Veltrix HR" }
+  ],
+  "faq": {
+    "label":"Questions","title":"FAQ",
+    "items": [
+      { "q":"Do I need any technical skills?",                         "a":"None at all. If you can type a message, you can use these prompts. No AI knowledge or technical background required. Everything is ready to copy and paste." },
+      { "q":"Which AI tools do the prompts work with?",                "a":"All major AI tools — ChatGPT (free or Plus), Claude, Google Gemini, Microsoft Copilot. You do not need a paid subscription; free versions work perfectly." },
+      { "q":"What do I receive after purchasing?",                     "a":"Immediately after purchase you receive an email with a link to your Notion document (no Notion account required) and a PDF download. Both contain all prompts organised by category." },
+      { "q":"Is this a subscription?",                                 "a":"No. Every Veltrix pack is a one-time purchase. Pay once, own it forever. No subscriptions, no hidden fees, no recurring charges." },
+      { "q":"What if it doesn't work for me?",                        "a":"Every pack comes with a 30-day money-back guarantee. If you're not satisfied, email us and we'll refund you in full — no questions asked." },
+      { "q":"When will Legal, Finance and RE packs be available?",     "a":"We're building them now. Veltrix Legal is next, followed by Finance and Real Estate. Email hello.veltrix@gmail.com with the pack name to be notified on launch." }
+    ]
+  },
+  "site": {
+    "testiLabel":"Real results","testiTitle":"What professionals say",
+    "footerDesc":"AI prompt packs for professionals. Built for HR, Legal, Finance and Real Estate teams who want to work smarter, not harder.",
+    "email":"hello.veltrix@gmail.com","footerCopy":"© 2025 Veltrix. All rights reserved.","footerDomain":"veltrix-prompts.com"
+  }
+}
